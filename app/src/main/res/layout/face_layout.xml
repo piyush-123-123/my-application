@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#1a237e">
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="75dp"
+        android:layout_height="60dp"
+       android:src="@drawable/download"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#1a237e"
+        android:hint="Username or Email"
+        android:textColorHint="#fafafa"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:inputType="text"
+        android:textColor="#fafafa"
+        android:id="@+id/username"
+        android:maxLines="1"
+        android:padding="5dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+     android:layout_below="@+id/username"
+        android:background="#1a237e"
+        android:hint="Password"
+
+        android:inputType="textPassword"
+        android:textColorHint="#fafafa"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:padding="5dp"
+        android:textColor="#fafafa"
+        android:id="@+id/pass"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:background="#1a237e"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fafafa"
+        android:layout_below="@+id/pass"
+        android:layout_marginTop="25dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up For Facebook"
+        android:textColor="#fafafa"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#fafafa"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:padding="5dp"
+        />
+
+
+</RelativeLayout>

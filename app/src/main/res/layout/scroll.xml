@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#C0C0C0">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="AVENGERS!"
+    android:textStyle="bold"
+    android:textColor="#0000A0"
+    android:textSize="30sp"
+    android:layout_centerHorizontal="true"
+   android:layout_marginTop="20dp"
+android:layout_marginBottom="20dp"
+    />
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:id="@+id/pic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/tony_stark_new" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic"
+            android:text=" Tony Stark"
+            android:paddingTop="100dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name"
+            android:layout_marginTop="7dp"
+            android:textColor="#303f9f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/pic"
+            android:id="@+id/email"
+            android:text=" tony@starkindustry.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email"
+            android:layout_toRightOf="@id/pic"
+            android:layout_marginTop="5dp"
+            android:text="+91 10000000000"
+            android:padding="5sp"
+            android:textColor="#303f9f"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/pic1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/pic"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/black_panther" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic1"
+            android:layout_below="@+id/pic"
+            android:text=" Black Panther"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name1"
+            android:layout_marginTop="7dp"
+            android:textColor="#303f9f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name1"
+            android:layout_toRightOf="@+id/pic1"
+
+            android:id="@+id/email1"
+            android:text=" bpanther@starkindustry.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email1"
+            android:layout_toRightOf="@id/pic"
+            android:layout_marginTop="5dp"
+            android:text="+91 10000000002"
+            android:padding="5sp"
+            android:textColor="#303f9f"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/pic2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/pic1"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/captain_america" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic1"
+            android:layout_below="@+id/pic1"
+            android:text=" Captain America"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name2"
+            android:layout_marginTop="7dp"
+            android:textColor="#303f9f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name2"
+            android:layout_toRightOf="@+id/pic1"
+
+            android:id="@+id/email2"
+            android:text=" bpanther@starkindustry.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email2"
+            android:layout_toRightOf="@id/pic"
+            android:layout_marginTop="5dp"
+            android:text="+91 10000000002"
+            android:padding="5sp"
+            android:textColor="#303f9f"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/pic3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/pic2"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/hulk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic1"
+            android:layout_below="@+id/pic2"
+            android:text=" Hulk"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name3"
+            android:layout_marginTop="7dp"
+            android:textColor="#303f9f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name3"
+            android:layout_toRightOf="@+id/pic1"
+
+            android:id="@+id/email3"
+            android:text=" hulk@starkindustry.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email3"
+            android:layout_toRightOf="@id/pic"
+            android:layout_marginTop="5dp"
+            android:text="+91 10000000003"
+            android:padding="5sp"
+            android:textColor="#303f9f"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/pic4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/pic3"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/widow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic1"
+            android:layout_below="@+id/pic3"
+            android:text=" Widow"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name4"
+            android:layout_marginTop="7dp"
+            android:textColor="#303f9f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name4"
+            android:layout_toRightOf="@+id/pic1"
+
+            android:id="@+id/email4"
+            android:text=" widow@starkindustry.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email4"
+            android:layout_toRightOf="@id/pic"
+            android:layout_marginTop="5dp"
+            android:text="+91 10000000004"
+            android:padding="5sp"
+            android:textColor="#303f9f"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/pic5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/pic4"
+            android:padding="1dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/thor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/pic1"
+            android:layout_below="@+id/pic4"
+            android:text=" Thor"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/name5"
+            android:layout_marginTop="7dp"
+            android:textColor="#303f9f"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name5"
+            android:layout_toRightOf="@+id/pic1"
+
+            android:id="@+id/email5"
+            android:text=" thor@starkindustry.com"
+            android:layout_marginTop="5dp"
+            android:textColor="#303f9f"
+            android:textStyle="bold"
+            tools:ignore="InvalidId" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email5"
+            android:layout_toRightOf="@id/pic"
+            android:layout_marginTop="5dp"
+            android:text="+91 10000000045"
+            android:padding="5sp"
+            android:textColor="#303f9f"
+            android:textStyle="bold" />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/button1"
+    android:text="Log Out"
+    android:layout_below="@+id/pic5"
+    android:background="#E30425"
+
+    />
+    </RelativeLayout>
+</LinearLayout>
+
+</ScrollView>

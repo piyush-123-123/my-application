@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="AVENGERS!"
+        android:textColor="#1a237e"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tony_stark_new" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:text="Tony stark"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:text="tony@starkindustry.com"
+        android:textColor="#607d8b"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:padding="10dp"
+        android:text="+91 11111111111"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here"
+        android:background="#004d40"
+        android:textColor="#e0f2f1"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email here"
+        android:inputType="text"
+/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password here"
+      android:inputType="textPassword"
+        />
+<Button
+    android:layout_width="50dp"
+    android:layout_height="30dp"
+    android:text="Enter"
+    android:layout_marginBottom="100dp"
+    android:textColor="#01579b"
+    android:background="#e1f5fe"
+    android:layout_gravity="center"
+    android:layout_marginLeft="155dp"
+    />
+</LinearLayout>
